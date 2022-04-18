@@ -1,0 +1,366 @@
+
+:root {
+    --black: rgba(0, 0, 0, 1);
+    --cerulean: rgba(11, 156, 236, 1);
+    --science-blue: rgba(14, 99, 202, 1);
+    --eerie-black: rgba(28, 30, 34, 1);
+    --gunsmoke: rgba(126, 131, 137, 1);
+    --nebula: rgba(206, 219, 220, 1);
+    --baby-powder: rgba(252, 252, 252, 1);
+    --white: rgba(255, 255, 255, 1);
+  
+    --font-size-s: 12px;
+    --font-size-m: 14px;
+    --font-size-l: 18px;
+    --font-size-xl: 20px;
+    --font-size-xxl: 23px;
+    --font-size-xxxl: 24px;
+    --font-size-xxxxl: 30px;
+  
+    --font-family-lato: "Lato";
+    --font-family-montserrat: "Montserrat";
+    --font-family-sabrenatonnymj-regular: "SabrenaTonnyMJ-Regular";
+    --font-family-spoof-bold: "Spoof-Bold";
+    --font-family-spoof-thin: "Spoof-Thin";
+  }
+
+  /* Classes */
+
+  .sabrenatonnymj-regular-normal-baby-powder-30px {
+    color: var(--baby-powder);
+    font-family: var(--font-family-sabrenatonnymj-regular);
+    font-size: var(--font-size-xxxxl);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .spoof-thin-baby-powder-14px {
+    color: var(--baby-powder);
+    font-family: var(--font-family-spoof-thin);
+    font-size: var(--font-size-m);
+    font-weight: 100;
+    font-style: normal;
+  }
+  .spoof-bold-cerulean-20px {
+    color: var(--cerulean);
+    font-family: var(--font-family-spoof-bold);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    font-style: normal;
+  }
+  .spoof-bold-white-14px {
+    color: var(--white);
+    font-family: var(--font-family-spoof-bold);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    font-style: normal;
+  }
+  .spoof-bold-baby-powder-20px {
+    color: var(--baby-powder);
+    font-family: var(--font-family-spoof-bold);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    font-style: normal;
+  }
+  .montserrat-semi-bold-nebula-12px {
+    color: var(--nebula);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-s);
+    font-weight: 600;
+    font-style: normal;
+  }
+  .lato-normal-gunsmoke-14px {
+    color: var(--gunsmoke);
+    font-family: var(--font-family-lato);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .spoof-bold-baby-powder-24px {
+    color: var(--baby-powder);
+    font-family: var(--font-family-spoof-bold);
+    font-size: var(--font-size-xxxl);
+    font-weight: 700;
+    font-style: normal;
+  }
+  .spoof-thin-baby-powder-18px {
+    color: var(--baby-powder);
+    font-family: var(--font-family-spoof-thin);
+    font-size: var(--font-size-l);
+    font-weight: 100;
+    font-style: normal;
+  }
+  .spoof-bold-baby-powder-18px {
+    color: var(--baby-powder);
+    font-family: var(--font-family-spoof-bold);
+    font-size: var(--font-size-l);
+    font-weight: 700;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: "Spoof-Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url("https://fonts.animaapp.com/Spoof-Bold") format("opentype");
+  }
+  
+  .user-mode {
+    align-items: flex-end;
+    background-color: #1c1e22;
+    display: flex;
+    flex-direction: column;
+    height: 1074px;
+    overflow: hidden;
+    padding: 25px 0;
+    border-radius: 80px;
+    width: 503px;
+  }
+  
+  .hidden,
+  .hidden * {
+    pointer-events: none;
+    visibility: hidden;
+  }
+  
+  .group-container {
+    align-items: flex-start;
+    background-image: url(https://anima-uploads.s3.amazonaws.com/projects/625a722a8f487f137017adb9/releases/625a723a4a30c51dd8c2936c/img/small-bg@1x.svg);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: -0.5px;
+    margin-top: 33px;
+    min-height: 935px;
+    padding: 22.5px 18.8px;
+    width: 503px;
+  }
+  
+  .group-484 {
+    align-items: flex-start;
+    align-self: center;
+    cursor: pointer;
+    display: flex;
+    height: 50px;
+    margin-top: 20px;
+    min-width: 156px;
+  }
+  
+  .overlap-group-1 {
+    align-items: flex-end;
+    background-image: url(https://anima-uploads.s3.amazonaws.com/projects/625a722a8f487f137017adb9/releases/625a723a4a30c51dd8c2936c/img/frame-1@2x.svg);
+    background-size: 100% 100%;
+    display: flex;
+    height: 100px;
+    justify-content: flex-end;
+    margin-left: -25px;
+    margin-top: -25px;
+    min-width: 206px;
+    padding: 28.8px 24.8px;
+  }
+  
+  .continue {
+    color: #ffffff;
+    font-family: var(--font-family-spoof-bold);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    min-height: 36px;
+    margin: 0px 0px 0px 0px; /* top | right | bottom | left */
+    text-align: center;
+    text-shadow: 0px 0px 4px #ffffff40;
+    width: 156px;
+  }
+  
+  .overlap-group-container {
+    height: 747px;
+    position: relative;
+    width: 448px;
+  }
+  
+  .overlap-group4 {
+    height: 258px;
+    left: 0;
+    position: absolute;
+    top: 489px;
+    width: 448px;
+  }
+  
+  .rectangle-368 {
+    height: 28px;
+    left: 385px;
+    position: absolute;
+    top: 56px;
+    width: 28px;
+  }
+  
+  .vector {
+    height: 217px;
+    left: 21px;
+    position: absolute;
+    top: 20px;
+    width: 427px;
+  }
+  
+  .group-48 {
+    height: 258px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 248px;
+  }
+  
+  .self-developer {
+    left: 222px;
+    letter-spacing: 0.48px;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0px 0px 4px #ffffff40;
+    top: 96px;
+    width: 193px;
+  }
+  
+  .rectangle-367 {
+    height: 24px;
+    left: 387px;
+    position: absolute;
+    top: 58px;
+    width: 24px;
+  }
+  
+  .overlap-group3 {
+    height: 258px;
+    left: 0;
+    position: absolute;
+    top: 245px;
+    width: 448px;
+  }
+  
+  .child-or-teenager {
+    left: 238px;
+    letter-spacing: 0.48px;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0px 0px 4px #ffffff40;
+    top: 82px;
+    width: 162px;
+  }
+  
+  .rectangle-37 {
+    height: 28px;
+    left: 385px;
+    position: absolute;
+    top: 54px;
+    width: 28px;
+  }
+  
+  .rectangle-3 {
+    height: 24px;
+    left: 387px;
+    position: absolute;
+    top: 56px;
+    width: 24px;
+  }
+  
+  .overlap-group2 {
+    height: 258px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 448px;
+  }
+  
+  .place {
+    left: 260px;
+    letter-spacing: 0.48px;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0px 0px 4px #ffffff40;
+    top: 110px;
+    width: 115px;
+  }
+  
+  .flex-row {
+    align-items: flex-end;
+    display: flex;
+    height: 82px;
+    margin-right: 38px;
+    min-width: 299px;
+  }
+  
+  .overlap-group1 {
+    height: 63px;
+    margin-bottom: 3px;
+    margin-left: 65px;
+    position: relative;
+    width: 63px;
+  }
+  
+  .settings {
+    align-items: flex-start;
+    display: flex;
+    height: 63px;
+    justify-content: center;
+    left: 0;
+    min-width: 63px;
+    position: absolute;
+    top: 0;
+    transform: rotate(180deg);
+  }
+  
+  .overlap-group {
+    height: 67px;
+    margin-top: -2px;
+    position: relative;
+    width: 67px;
+  }
+  
+  .small-btn {
+    height: 57px;
+    left: 5px;
+    position: absolute;
+    top: 5px;
+    transform: rotate(-180deg);
+    width: 57px;
+  }
+  
+  .bg-blur {
+    height: 67px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: rotate(-180deg);
+    width: 67px;
+  }
+  
+  .small-blur {
+    height: 65px;
+    left: 2px;
+    position: absolute;
+    top: 1px;
+    transform: rotate(-180deg);
+    width: 65px;
+  }
+  
+  .vector-1 {
+    height: 24px;
+    left: 20px;
+    position: absolute;
+    top: 20px;
+    width: 22px;
+  }
+  
+  .select-user {
+    letter-spacing: 0.6px;
+    min-height: 82px;
+    text-align: center;
+    text-shadow: 0px 0px 4px #ffffff40;
+    width: 171px;
+  }
+  
+  .span0 {
+    letter-spacing: 0.18px;
+  }
+  
+  .span1 {
+    letter-spacing: 0.12px;
+  }
